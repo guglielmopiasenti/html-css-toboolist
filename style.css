@@ -1,0 +1,17 @@
+/*css reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(162, 162, 162);
+}
+header{ 
+    background-color: white;
+    background-image: url(img/Logo.png);
+    background-repeat: no-repeat;
+    padding-left: 60px;
+    font-size: 25px;
+}
+
