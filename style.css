@@ -6,7 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body {
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(216, 216, 216);
 }
 header{ 
     background-color: white;
@@ -23,10 +23,11 @@ header{
     margin: 20px auto;
     background-color: white;
     border-radius: 5px;
-    padding: 20px;
+    padding: 10px 25px;
+    position: relative;
 }
 .buttons-container{
-    height: 50px;
+    height: 40px;
     border-style: none;
 }
 .buttons{
@@ -46,8 +47,14 @@ header{
     background-color: white;
 }
 .divider{
+    width: 100%;
     height: 1px;
-    background-color: rgb(231, 231, 231);
+    position: absolute;
+    right: 1px;
+    background-color: rgb(216, 216, 216);
+}
+.to-do-container{
+    padding-top: 30px;
 }
 h3{
     margin-top: 5px;
