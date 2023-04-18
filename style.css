@@ -6,14 +6,17 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body {
-    background-color: rgb(162, 162, 162);
+    background-color: rgb(231, 231, 231);
 }
 header{ 
     background-color: white;
     background-image: url(img/Logo.png);
     background-repeat: no-repeat;
-    padding-left: 60px;
-    font-size: 25px;
+    padding-left: 80px;
+    font-size: 20px;
+    background-position: 20px;
+    height: 60px;
+    line-height: 60px;
 }
 .container{
     width: 50%;
@@ -43,7 +46,56 @@ header{
     background-color: white;
 }
 .divider{
-    width: 100%;
     height: 1px;
-    background-color: rgb(162, 162, 162);
+    background-color: rgb(231, 231, 231);
+}
+h3{
+    margin-top: 5px;
+}
+.mark{
+    display: inline-block;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    
+}
+.check{
+    color: green;
+    border: 1px solid green;
+}
+.cross{
+    color: red;
+    border: 1px solid red;
+}
+.tag{
+    display: inline-block;
+    border-radius: 30px;
+    margin: 20px 0;
+    height: 20px;
+    width: 3.2rem;
+    line-height: 20px;
+    font-size: 0.6rem;
+    text-align: center;
+    color: white;
+} 
+.editorial{
+    background-color: rgb(26, 228, 255);
+    
+}
+.q1goals{
+    background-color: rgb(211, 34, 211);
+   
+}
+.recruiting{
+    background-color: rgb(22, 167, 87);
+}
+.mobile{
+    background-color: orange;
+}
+.website{
+    background-color: palevioletred;
+}
+.sales{
+    background-color:rgb(101, 161, 12) ;
 }
