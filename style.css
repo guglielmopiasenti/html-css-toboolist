@@ -10,13 +10,9 @@ body {
 }
 header{ 
     background-color: white;
-    background-image: url(img/Logo.png);
-    background-repeat: no-repeat;
-    padding-left: 80px;
-    font-size: 20px;
-    background-position: 20px;
-    height: 60px;
-    line-height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
 }
 .container{
     width: 50%;
@@ -87,22 +83,22 @@ h3{
     color: white;
 } 
 .editorial{
-    background-color: rgb(26, 228, 255);
+    background-color: #45ABEA;
     
 }
 .q1goals{
-    background-color: rgb(211, 34, 211);
+    background-color: #9C72E4;
    
 }
 .recruiting{
-    background-color: rgb(22, 167, 87);
+    background-color: #64C0A9;
 }
 .mobile{
-    background-color: orange;
+    background-color: #F29E33;
 }
 .website{
-    background-color: palevioletred;
+    background-color: #D863A1;
 }
 .sales{
-    background-color:rgb(101, 161, 12) ;
+    background-color:#B0C926;
 }
